@@ -1,0 +1,151 @@
+body {
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+}
+
+header {
+    background: #649617;
+    padding: 1rem 10px;
+}
+
+header span {
+    color: #0c1357;
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+nav {
+    background-color: #d6b81c;
+}
+
+nav ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0 10px;
+    display: flex;
+}
+
+nav ul a {
+    padding: .83rem 1rem;
+    display: block;
+    text-decoration: none;
+    color: #820900;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+nav li a:hover {
+    color: #94d777;
+}
+
+
+nav li.active a {
+    background-color: #0c1357;
+    color: #d6b81c;
+}
+
+main {
+    padding: 1rem 10px;
+}
+
+main h1 {
+    color: #820900;
+}
+
+main h2 {
+    color: #649617;
+}
+
+
+/* may change color */
+main p {
+    margin: 0;
+    color: black;
+}
+
+main ol {
+    padding: .5rem 30px;
+    background-color: #0c1357;
+}
+
+main dl dt {
+    color: #94d777;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+main dl dd {
+    color: #649617;
+    font-size: .9rem;
+    margin-left: 20px;
+}
+
+main ul {
+    list-style-type: square;
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+main strong {
+    font-weight: 700;
+    color: #0c1357;
+}
+
+main em {
+    font-weight: 700;
+}
+
+address {
+    font-style: normal;
+    background-color: #d6b81c;
+    padding: .5rem;
+    border-radius: 12px;
+    border: 2px dotted;
+    color: black;
+}
+
+figure.index img {
+    width: 35%;
+    height: 35%;
+    flex: 10px;
+    float: right;
+}
+
+figure.index figcaption {
+    text-align: center;
+    font-size: medium;
+}
+
+div.images {
+    display: flex;
+   
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+main a {
+    color: #0c1357;
+}
+
+a:hover {
+    color: #820900;
+}
+
+footer {
+    background-color: #649617;
+    text-align: center;
+    padding: .5rem 10px;
+    margin-top: 5px;
+}
+
+footer p {
+    margin: 0;
+    font-size: .77rem;
+    color: #0c1357;
+    letter-spacing: 2px;
+
+}
